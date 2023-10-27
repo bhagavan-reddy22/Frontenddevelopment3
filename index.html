@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <img src="purple bricks.jpg" alt="Logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="property.html">Properties</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="forgotpassword.html"></a></li>
+                <li><a href="searchresults.html"></a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Our Real Estate Agency</h1>
+        <p>Discover Your Dream Home</p><br></br>
+        <form action="searchresults.html" method="get">
+            <input type="text" name="location" placeholder="Enter Location">
+            <input type="number" name="min-price" placeholder="Min Price">
+            <input type="number" name="max-price" placeholder="Max Price">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="property-listings">
+        <h2>Featured Property Listings</h2>
+        <div class="property">
+            <img src="property1.jpeg" alt="Property 1">
+            <h3>Beautiful 3-Bedroom Houses</h3>
+            <p>Price: $500,000</p>
+            <p>Location: Sunnyville</p>
+            <a href="property.html" class="cta-button">view properties</a>
+            </div>
+        <div class="property">
+            <img src="property2.jpeg" alt="Property 2">
+            <h3>Luxury Condo with a View</h3>
+            <p>Price: $750,000</p>
+            <p>Location: Skyline Tower</p>
+            <a href="property.html" class="cta-button">view properties</a>
+            
+        </div>
+        <div class="property">
+            <img src="property3.jpeg" alt="Property 3">
+            <h3>Lakeside Villa with a View</h3>
+            <p>Price: $850,000</p>
+            <p>Location: Tranquil Lakeside</p>
+            <a href="property.html" class="cta-button">view properties</a>
+        </div>
+        
+        <div class="property">
+            <img src="property4.jpeg" alt="Property 4">
+            <h3>Spacious Downtown Villa</h3>
+            <p>Price: $650,000</p>
+            <p>Location: City Center</p>
+            <a href="property.html" class="cta-button">view properties</a>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </section>
+    </section>
+    <footer>
+        <p>&copy;2023. Purple Bricks</p>
+    </footer>
+</body>
+</html>

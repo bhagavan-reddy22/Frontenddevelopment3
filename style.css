@@ -1,0 +1,361 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+/* Set a background color and font family */
+body {
+    background-image: url('image3.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header { 
+    background-color: rgba(56, 56, 61, 0.944);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+/* Style property listings */
+#property-listings {
+    text-align: center;
+    padding: 20px;
+}
+
+.property {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add this CSS to your property.html */
+
+/* Center the images */
+.property img {
+    max: width 100px;%;
+    display: block; /* Center the images */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Change the font color */
+/* Add this CSS to your existing style.css or in a separate CSS file */
+.property {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center-align the content in each property */
+
+    /* Define a fixed width for each property container if needed */
+    /* width: 300px; */
+}
+
+.property img {
+    max-width: 100%;
+    display: block; /* Center the images */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.property h3 {
+    font-size: 18px;
+}
+
+.property p {
+    font-size: 16px;
+    color: #333; /* Text color */
+    margin-bottom: 10px;
+}
+
+.property .add-to-cart {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+
+    /* Center the button in its container */
+    display: block;
+    margin: 0 auto;
+}
+
+.property .add-to-cart:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+/* Add this CSS to your existing style.css or in a separate CSS file */
+.property-details {
+    text-align: center;
+    padding: 20px;
+}
+
+.property-details img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Center-align the image */
+}
+
+.property-details h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.property-details p {
+    font-size: 18px;
+    color: #333; /* Text color */
+    margin: 10px 0;
+}
+
+.property-details .add-to-cart {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+    display: block; /* Center-align the button */
+    margin: 0 auto;
+}
+
+.property-details .add-to-cart:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Center-align the form in the contact section */
+#contact-agent {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact-agent label {
+    font-size: 16px;
+}
+
+#contact-agent input,
+#contact-agent textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#contact-agent button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#contact-agent button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    header nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+header img {
+    float: left; 
+    width: 100px; 
+    height: 100px;
+    border-radius: 20%; 
+    margin-right: 0px; 
+}
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set a background color and font family */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #5e656c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the contact section */
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.contact-info {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Style the contact form */
+.contact-form {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.contact-form label {
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set a background color and font family */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
